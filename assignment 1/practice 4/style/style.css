@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, 
+    BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, 
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 
+    sans-serif;
+    font-size: 18px;
+}
+
+.loginform {
+    box-shadow: 5px 15px 15px gray;
+    padding: 20px;
+}
+
+.container {
+    width: 30%;
+    margin: 20px 450px;
+}
+
+.container img {
+    width: 50%;
+    margin: 0 90px;
+}
+
+.heading,
+.enter-mailid,
+.submit,
+.help,
+.more {
+    padding: 5px 10px;
+}
+
+.enter-mailid label {
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.enter-mailid input {
+    padding: 7px 100px;
+}
+
+.submit button {
+    padding: 5px 147px;
+    background: #f2cd6f;
+    border: none;
+    border-radius: 5px;
+}
+
+.help {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.more img {
+    width: 5%;
+    margin: 0 10px
+}
+
+.more p {
+    font-size: 14px;
+    font-weight: 600;
+}
